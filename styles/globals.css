@@ -1,16 +1,68 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
+*{
   box-sizing: border-box;
+  font-family: sans-serif;
+  color: rgb(42, 50, 59);
+}
+
+.hero_image{
+  width:200px;
+  margin: 80px auto 20px auto;  
+}
+.hero_context{
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.moviecard_container{
+  
+  display: inline-block;
+  background-color: rgb(237, 240, 243);
+  border-radius: 10px 5px;
+  text-align: center;
+  margin: 10px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.moviecard_container:hover{
+  box-shadow: 0 5px 10px 0 rgb(107, 85, 209);
+}
+
+.moviecard_container p{
+ font-size: .8rem;
+}
+
+
+.popoularmovie_container{
+  background-color: rgb(33, 51, 66);
+  padding: 50px 90px;
+}
+
+.moviecard_image{
+  box-sizing: border-box;
+  border-radius: 2px;
+}
+
+.header_watch{
+  background-color: rgb(33, 51, 66);
+  padding: 2px;
+  color: rgb(247, 242, 236);
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+
+.header_me{
+ color: rgb(107, 85, 209);
+ font-weight: bolder;
+}
+
+@media screen and (max-width: 600px) {
+  .header_watch {
+    text-align: center;
+  }
 }
