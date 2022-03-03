@@ -66,6 +66,32 @@
  color: rgb(107, 85, 209);
  font-weight: bolder;
 }
+.error404{
+  margin: 0 auto 0 auto;
+  width: 210px;
+font-size: 8rem;
+font-weight: bolder;
+color: rgb(107, 85, 209);
+}
+.error_oops{
+  font-size: 3rem;
+  font-weight: bold;
+  width: 170px;
+  margin: 0 auto 0 auto;
+}
+.error_message{
+ font-size: 2rem;
+ width: 218px;
+ color: red;
+ margin: 0 auto 0 auto;
+ 
+}
+.error_container{
+  margin: 160px;
+  text-align: center;
+  font-weight: ;
+}
+
 
 @media screen and (max-width: 600px) {
   .header_watch {
