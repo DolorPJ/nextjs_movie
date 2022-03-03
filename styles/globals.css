@@ -54,6 +54,12 @@
   text-transform: uppercase;
   font-weight: bold;
   font-size: 1.8rem;
+   cursor: pointer;
+  padding-left: 100px;
+}
+
+.Footer_container{
+  text-align: center;
 }
 
 .header_me{
